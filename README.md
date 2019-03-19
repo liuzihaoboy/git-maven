@@ -29,7 +29,7 @@ gitee
 <repositories>
     <repository>
         <id>git-maven</id>
-        <url>https://gitee.com/liuzihaoboy/git-maven/master/repository</url>
+        <url>https://gitee.com/liuzihaoboy/git-maven/raw/master</url>
     </repository>
 </repositories>
 ```
