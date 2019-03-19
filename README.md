@@ -14,6 +14,7 @@ git push origin master
 ```
 ## 使用
 在pom文件引入
+
 github
 ```
 <repositories>
