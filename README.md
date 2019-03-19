@@ -14,11 +14,21 @@ git push origin master
 ```
 ## 使用
 在pom文件引入
+github
 ```
 <repositories>
     <repository>
         <id>git-maven</id>
         <url>https://raw.githubusercontent.com/liuzihaoboy/git-maven/master/repository</url>
+    </repository>
+</repositories>
+```
+gitee
+```
+<repositories>
+    <repository>
+        <id>git-maven</id>
+        <url>https://gitee.com/liuzihaoboy/git-maven/master/repository</url>
     </repository>
 </repositories>
 ```
