@@ -20,7 +20,7 @@ github
 <repositories>
     <repository>
         <id>git-maven</id>
-        <url>https://raw.githubusercontent.com/liuzihaoboy/git-maven/master/repository</url>
+        <url>https://raw.github.com/liuzihaoboy/git-maven/master/</url>
     </repository>
 </repositories>
 ```
