@@ -1,38 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T08:57:57.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ar2qgfS2_cI4lECCgawr" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T09:03:10.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="RVwyep172_o6LHhMz5qQ" version="13.8.1" type="github">
   <diagram id="fRViq0NgBLvrVwMX1baH" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="e9yI4p96smnYWFxEh_gX-39" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Lucida Console;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;container=1;" vertex="1" parent="1">
-          <mxGeometry x="280.5" y="1310" width="501" height="100" as="geometry" />
+          <mxGeometry x="240" y="1310" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-35" value="faiss" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-39">
-          <mxGeometry x="12.5" y="30" width="120" height="57.5" as="geometry" />
+          <mxGeometry x="13.972055888223553" y="30" width="134.1317365269461" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-41" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;comic=1;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-39">
-          <mxGeometry x="189.5" y="9.99969696969697" width="105" height="16.515151515151516" as="geometry" />
+          <mxGeometry x="211.81636726546904" y="9.99969696969697" width="117.36526946107784" height="16.515151515151516" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-36" value="redis" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-39">
+          <mxGeometry x="220" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-31" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Lucida Console;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;container=1;" vertex="1" parent="1">
-          <mxGeometry x="283" y="1210" width="501" height="93" as="geometry" />
+          <mxGeometry x="240" y="1210" width="560" height="93" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-40" value="基础层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;comic=1;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-31">
-          <mxGeometry x="182" y="6.489696969696979" width="105" height="16.515151515151516" as="geometry" />
+          <mxGeometry x="216.17313373253492" y="6.489696969696979" width="117.36526946107784" height="16.515151515151516" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-27" value="策略管理" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-31">
+          <mxGeometry x="28.236764705882358" y="23" width="123.52941176470587" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-29" value="监控模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-31">
+          <mxGeometry x="216.17647058823528" y="23" width="123.52941176470587" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-30" value="Debug模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-31">
+          <mxGeometry x="411.7647058823529" y="23" width="123.52941176470587" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-4" value="" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Lucida Console;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;container=1;" vertex="1" parent="1">
-          <mxGeometry x="283" y="977" width="501" height="218" as="geometry" />
+          <mxGeometry x="241" y="980" width="560" height="218" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-7" value="召回模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
-          <mxGeometry x="26" y="38.99666666666667" width="105" height="29.72727272727273" as="geometry" />
+          <mxGeometry x="29.06187624750499" y="38.99666666666667" width="117.36526946107784" height="29.72727272727273" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-23" value="排序模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
-          <mxGeometry x="186" y="39.00090909090909" width="105" height="29.72727272727273" as="geometry" />
+          <mxGeometry x="207.90419161676647" y="39.00090909090909" width="117.36526946107784" height="29.72727272727273" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-8" value="干预模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
-          <mxGeometry x="374" y="38.99666666666667" width="104" height="28.901515151515152" as="geometry" />
+          <mxGeometry x="399.0039121756487" y="38.99666666666667" width="116.24750499001996" height="28.901515151515152" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-5" value="策略模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;comic=1;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
-          <mxGeometry x="182" y="10.99969696969697" width="105" height="16.515151515151516" as="geometry" />
+          <mxGeometry x="203.43313373253494" y="10.99969696969697" width="117.36526946107784" height="16.515151515151516" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-15" value="通&lt;br&gt;用&lt;br&gt;召&lt;br&gt;回&lt;br&gt;组&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
+          <mxGeometry x="29.060000000000002" y="80" width="45" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-19" value="业&lt;br&gt;务&lt;br&gt;召&lt;br&gt;回&lt;br&gt;插&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
+          <mxGeometry x="99" y="80" width="45" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-20" value="通&lt;br&gt;用&lt;br&gt;排&lt;br&gt;序&lt;br&gt;组&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
+          <mxGeometry x="209" y="78" width="45" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-21" value="业&lt;br&gt;务&lt;br&gt;排&lt;br&gt;序&lt;br&gt;插&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
+          <mxGeometry x="275.79999999999995" y="78" width="45" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-24" value="通&lt;br&gt;用&lt;br&gt;干&lt;br&gt;预&lt;br&gt;组&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
+          <mxGeometry x="398.99999999999994" y="78" width="45" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="e9yI4p96smnYWFxEh_gX-25" value="业&lt;br&gt;务&lt;br&gt;干&lt;br&gt;预&lt;br&gt;插&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="e9yI4p96smnYWFxEh_gX-4">
+          <mxGeometry x="470.25" y="83" width="45" height="122" as="geometry" />
         </mxCell>
         <mxCell id="Ot1YciX9l12-jg-z9SYE-7" value="Node" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;comic=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="333" y="81" width="254" height="126" as="geometry">
@@ -188,43 +218,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;中控层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="283" y="828" width="504" height="60" as="geometry" />
+          <mxGeometry x="241" y="828" width="563" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-12" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=15;rounded=1;comic=1;fontFamily=Lucida Console;fontSize=16;direction=south;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="466" y="888" width="46" height="87" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=15;rounded=1;comic=1;fontFamily=Lucida Console;fontSize=16;direction=north;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="543" y="888" width="46" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-15" value="通&lt;br&gt;用&lt;br&gt;召&lt;br&gt;回&lt;br&gt;组&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="311" y="1060" width="45" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-19" value="业&lt;br&gt;务&lt;br&gt;召&lt;br&gt;回&lt;br&gt;插&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="371" y="1060" width="45" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-20" value="通&lt;br&gt;用&lt;br&gt;排&lt;br&gt;序&lt;br&gt;组&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="471" y="1058" width="45" height="127" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-21" value="业&lt;br&gt;务&lt;br&gt;排&lt;br&gt;序&lt;br&gt;插&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="534" y="1058" width="45" height="127" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-24" value="通&lt;br&gt;用&lt;br&gt;干&lt;br&gt;预&lt;br&gt;组&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="656.5" y="1062" width="45" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-25" value="业&lt;br&gt;务&lt;br&gt;干&lt;br&gt;预&lt;br&gt;插&lt;br&gt;件" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontFamily=Lucida Console;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="722" y="1063" width="45" height="122" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-27" value="策略管理" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="293" y="1233" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-29" value="监控模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="471" y="1235" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-30" value="Debug模块" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="649" y="1235" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="e9yI4p96smnYWFxEh_gX-36" value="redis" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="475" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="888" width="46" height="87" as="geometry" />
         </mxCell>
         <mxCell id="e9yI4p96smnYWFxEh_gX-37" value="es" style="rounded=1;whiteSpace=wrap;html=1;comic=1;sketch=0;fontFamily=Lucida Console;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="649" y="1340" width="120" height="60" as="geometry" />
